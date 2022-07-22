@@ -1,0 +1,50 @@
+
+.cards {
+  background-color: #F7F7F7;
+  border-radius: 25px;
+  margin-top: 40px;
+  display: grid;
+  row-gap: 50px;
+  grid-template-rows: 340px 340px;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  justify-items: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+
+.house {
+  width: 340px;
+  height: 340px;
+  border-radius: 10px;
+  display: flex;
+  align-items: baseline;
+}
+.housecard {
+  width: 340px;
+  height: 340px;
+  border-radius: 10px;
+  display: flex;
+  align-items: baseline;
+}
+
+
+img.cover {
+  border-radius: 10px;
+  object-fit: fill;
+  height: 100%;
+  width: 100%;
+}
+
+.title{
+  position: absolute;
+  align-self: flex-end;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  font-weight: 500;
+  font-size: 18px;
+  width: 200px;
+  color: white;
+}
+

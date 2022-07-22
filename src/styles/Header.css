@@ -1,0 +1,48 @@
+header {
+    /* margin-left: 100px;
+    margin-right: 100px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 68px;
+}
+header div {
+    height: 68px;
+    display: flex;
+}
+header div img {
+    object-fit: contain;
+}
+
+menu {
+    /* width: 250px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+menu ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    gap: 57px;
+    font-weight: 500;
+    font-size: 24px;
+    /* justify-content: space-between; */
+    /* align-items: center; */
+}
+
+.accueil,.apropos {
+    color: var(--font-color);
+    text-decoration: none;
+}
+
+.accueil:hover{
+    text-decoration: underline;
+}
+
+.apropos:hover{
+    text-decoration: underline;
+}

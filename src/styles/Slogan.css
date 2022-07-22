@@ -1,0 +1,28 @@
+.slogan{
+    /* background-color: black; */
+    background-image: url("http://localhost:3000/assets/Paysage.png");
+    background-size: cover;
+    height: 223px;
+    width: 100%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slogan span{
+    font-size: 48px;
+    color: #FFFFFF;
+}
+
+.slogan2{
+    /* background-color: black; */
+    background-image: url("http://localhost:3000/assets/Paysage2.png");
+    background-size: cover;
+    height: 223px;
+    width: 100%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
