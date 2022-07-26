@@ -19,7 +19,7 @@
     /* background-color: black; */
     background-image: url("http://localhost:3000/assets/Paysage2.png");
     background-size: cover;
-    height: 223px;
+    min-height: 223px;
     width: 100%;
     border-radius: 10px;
     display: flex;

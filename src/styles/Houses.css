@@ -4,26 +4,32 @@
   border-radius: 25px;
   margin-top: 40px;
   display: grid;
-  row-gap: 50px;
-  grid-template-rows: 340px 340px;
+  /* 50/1240 */
+  row-gap: 4vw;
+  justify-content: space-around;
+  /* gap: 4vw; */
+  /* 1240/340 */
+  grid-template-rows: 24vw 24vw;
   grid-template-columns: repeat(3, 1fr);
   align-items: center;
   justify-items: center;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  /* 50/1240 */
+  padding-top: 4vw;
+  padding-bottom: 4vw;
 }
 
 
 .house {
-  width: 340px;
-  height: 340px;
+  /* width: 27vw;
+  height: 27vw; */
+
   border-radius: 10px;
   display: flex;
   align-items: baseline;
 }
 .housecard {
-  width: 340px;
-  height: 340px;
+  width: 24vw;
+  height: 24vw;
   border-radius: 10px;
   display: flex;
   align-items: baseline;
@@ -32,7 +38,7 @@
 
 img.cover {
   border-radius: 10px;
-  object-fit: fill;
+  object-fit: cover;
   height: 100%;
   width: 100%;
 }
@@ -44,7 +50,8 @@ img.cover {
   margin-bottom: 10px;
   font-weight: 500;
   font-size: 18px;
-  width: 200px;
+  /* 200/1240 */
+  width: 16vw;
   color: white;
 }
 

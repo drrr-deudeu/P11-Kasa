@@ -1,0 +1,39 @@
+main{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.gallery{
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+    /* 415/1240 */
+    height: 33vw;
+}
+
+.arrow_left{
+    position: absolute;
+    margin-left: 20px;
+}
+
+.arrow_right{
+    position: absolute;
+    right: 120px;
+}
+
+.arrow_left:hover, .arrow_right:hover{
+    cursor: pointer;
+}
+
+.gallery_image{
+    width: 100%;
+}
+
+
+.gallery_image img{
+    /* 415/1240 => */
+    height: 33vw;
+    object-fit: cover;
+    width: 100%;
+    border-radius: 25px;    
+}

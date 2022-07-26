@@ -1,0 +1,31 @@
+.notfound{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.code {
+    font-weight: 700;
+    font-size: 288px;
+}
+
+.oups {
+    font-weight: 500;
+    font-size: 36px;
+}
+
+.retour_accueil{
+    margin-top: 180px;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.navlink {
+    color: var(--font-color);
+    text-decoration: none;
+}
+
+.navlink:hover{
+    text-decoration: underline;
+}

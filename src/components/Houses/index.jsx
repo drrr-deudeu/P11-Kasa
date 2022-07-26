@@ -12,7 +12,7 @@ function Houses(){
     if(data.length && !isLoading){
         return(
         <div className="cards">
-            {data.map((house,ind) =>(<Link to="/" key={house.id} id={ind}>
+            {data.map((house,ind) =>(<Link to={"/fiche-logement/"+house.id} key={house.id} id={ind}>
             <HouseCard id={house.id} title={house.title} image={house.cover}/></Link>))}</div>)
     }
 }

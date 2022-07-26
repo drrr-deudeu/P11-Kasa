@@ -5,6 +5,7 @@
 body {
   color: var(--font-color);
   margin: 0;
+  box-sizing: border-box;
   /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif; */
@@ -18,11 +19,7 @@ code {
     monospace;
 }
 
-header,main {
-  margin-left: 100px;
-  margin-right: 100px;
-  margin-top: 40px;
-}
+
 /* .cards {
   display: flex;
   flex-direction: row;

@@ -1,7 +1,9 @@
-.about {
+.valeurs{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    margin-top: 20px;
-    margin-bottom: 30px;
+    gap: 20px;
+    width: 600px;
 }
+

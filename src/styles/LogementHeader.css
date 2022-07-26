@@ -1,0 +1,42 @@
+.logementheader{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logement_title{
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.logement_location{
+    font-weight: 500;
+    font-size: 18px;
+}
+.logement_name_picture{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.logement_name{
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.logement_picture{
+    width: 64px;
+    height: 64px;
+    border-radius: 32px;
+}
+
+.logement_picture img{
+    object-fit: cover;
+    border-radius: 32px;
+    width: 64px;
+    height: 64px;
+}

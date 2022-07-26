@@ -1,0 +1,7 @@
+.logement_detail{
+    padding: 20px;
+    box-sizing: border-box;
+    display:flex;
+    flex-direction: row;
+    gap: 100px;
+}

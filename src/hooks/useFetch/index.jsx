@@ -6,7 +6,7 @@ export function useFetch(url) {
   const [error, setError] = useState(false)
 
 
-  console.log("UseFetch Apres les déclarations on a ISLOADING:"+isLoading)
+  //console.log("UseFetch Apres les déclarations on a ISLOADING:"+isLoading)
   useEffect(() => {
     if (!url || isLoading || data.length) return
     // if( !url ) return
