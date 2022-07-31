@@ -20,7 +20,7 @@ function Article({title,text,prefix,index,cut=false}){
                 <div id={"down_"+prefix+index} data-toggle={"up_"+prefix+index} data-prefixindex={prefix+index} className="opened invisible"><img src="/assets/arrow_up.png" alt="close article"/></div>
             </button>
         </div>
-        <div id={"text_"+prefix+index} className="article_text invisible">{cut?text.map((line) =>(<p>{line}</p>)):text}</div>
+        <div id={"text_"+prefix+index} className="article_text invisible">{cut?text.map((line,ind) =>(<p key={'cut_'+ind}>{line}</p>)):<p>{text}</p>}</div>
     </div>)
 }
 

@@ -1,7 +1,16 @@
 .logement_detail{
-    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     box-sizing: border-box;
     display:flex;
     flex-direction: row;
-    gap: 100px;
+    gap: 75px;
+}
+
+@media (max-width: 871px){
+    .logement_detail{
+
+        flex-direction: column;
+        row-gap: 30px;
+    }
 }

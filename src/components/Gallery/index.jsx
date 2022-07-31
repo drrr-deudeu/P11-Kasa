@@ -8,16 +8,20 @@ function Gallery({move,pictures}){
         <div className="gallery_image">
             <img src={pictures[index]} alt="logement view"/>
         </div>
-        {pictures.length > 1 &&
-        <div className="arrow_left">
-            <img src="/assets/arrow_left.png" alt="previous" onClick={() => ((index)?setIndex(index-1):setIndex(pictures.length-1))}/>
+        <div className='container_arrows'>
+            <div className='arrows'>
+                {pictures.length > 1 &&
+                <div className="arrow_left">
+                    <img src="/assets/arrow_left.png" alt="previous" onClick={() => ((index)?setIndex(index-1):setIndex(pictures.length-1))}/>
+                </div>
+                }        
+                {pictures.length > 1 &&
+                <div className="arrow_right">
+                    <img src="/assets/arrow_right.png" alt="next" onClick={() => setIndex((index+1)%pictures.length)}/>
+                </div>
+                }
+            </div>
         </div>
-        }        
-        {pictures.length > 1 &&
-        <div className="arrow_right">
-            <img src="/assets/arrow_right.png" alt="next" onClick={() => setIndex((index+1)%pictures.length)}/>
-        </div>
-        }
     </div>)
 }
 export default Gallery

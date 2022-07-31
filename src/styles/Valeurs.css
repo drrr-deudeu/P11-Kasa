@@ -1,4 +1,5 @@
 .valeurs{
+    box-sizing: border-box;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -7,3 +8,8 @@
     width: 600px;
 }
 
+@media (max-width: 871px){
+    .valeurs{
+        width: 100%;
+    }
+}

@@ -1,27 +1,29 @@
-header,main {
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-top: 40px;
-    margin-bottom: 20px;
-  }
+.header_container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: space-between;
+}
 
-header {
-    /* margin-left: 100px;
-    margin-right: 100px; */
+.header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    height: 68px;
+    align-items: center;
+    height: 43px;
+    /* width:335px; */
 }
-header div {
-    height: 68px;
+.header div.header_image {
+    height: 43px;
     display: flex;
 }
-header div img {
-    object-fit: contain;
+.header div img {
+    max-height: 43px;
+    object-fit: cover;
 }
 
-menu {
+nav {
     /* width: 250px; */
     display: flex;
     flex-direction: row;
@@ -30,15 +32,13 @@ menu {
 
 }
 
-menu ul{
+nav ul{
     display: flex;
     flex-direction: row;
     list-style-type: none;
-    gap: 57px;
+    gap: 3.5vw;
     font-weight: 500;
-    font-size: 24px;
-    /* justify-content: space-between; */
-    /* align-items: center; */
+    font-size: 12px;
 }
 
 .accueil,.apropos {
@@ -52,4 +52,10 @@ menu ul{
 
 .apropos:hover{
     text-decoration: underline;
+}
+
+@media (max-width: 871px){
+    .accueil,.apropos {
+        text-transform: uppercase;
+    }
 }

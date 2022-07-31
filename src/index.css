@@ -1,11 +1,20 @@
 :root{
-  --font-color: #FF6060; 
+  --font-color: #FF6060;
+  min-width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  
 }
 
 body {
   color: var(--font-color);
-  margin: 0;
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif; */
@@ -20,17 +29,3 @@ code {
 }
 
 
-/* .cards {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-} */
-
-/* .cards {
-  display: grid;
-  gap: 24px;
-  grid-template-rows: 350px 350px;
-  grid-template-columns: repeat(2, 1fr);
-  align-items: center;
-  justify-items: center;
-} */
