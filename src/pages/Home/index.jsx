@@ -6,6 +6,7 @@ import '../../styles/PageContainer.css'
 import '../../styles/Home.css'
 
 function Home() {
+
     return(<div className="page_container"><Header /><main id="main_home" className="main_home"><Slogan isHome={true}/><Houses/></main></div>)
 }
 export default Home

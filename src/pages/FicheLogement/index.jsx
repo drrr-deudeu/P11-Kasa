@@ -1,6 +1,6 @@
 import { useParams } from 'react-router-dom'
 import NotFound from '../NotFound';
-import {useFetch} from '../../hooks/useFetch'
+import {useFetch} from '../../utils/useFetch'
 import Gallery from '../../components/Gallery';
 import Presentation from '../../components/Presentation'
 import Header from '../../components/Header'

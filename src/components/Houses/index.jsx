@@ -1,6 +1,6 @@
 import HouseCard from '../HouseCard'
 import '../../styles/Houses.css'
-import {useFetch} from '../../hooks/useFetch'
+import {useFetch} from '../../utils/useFetch'
 import {Link} from 'react-router-dom'
 function Houses(){
     const { data, isLoading, error } = useFetch(
