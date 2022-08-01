@@ -38,7 +38,7 @@ nav ul{
     list-style-type: none;
     gap: 3.5vw;
     font-weight: 500;
-    font-size: 12px;
+    font-size: 17px;
 }
 
 .accueil,.apropos {
@@ -57,5 +57,8 @@ nav ul{
 @media (max-width: 871px){
     .accueil,.apropos {
         text-transform: uppercase;
+    }
+    nav ul{
+        font-size: 12px;
     }
 }
