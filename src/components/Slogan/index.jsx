@@ -4,9 +4,9 @@ function Slogan({ isHome }) {
     <section className='slogan_container'>
       {isHome ? (
         <section className='slogan'>
-          <div className='image'>
+          {/* <div className='image'>
             <img src='/assets/Paysage.png' alt='Chez Kasa' />
-          </div>
+          </div> */}
           <div className='text'>
             <span>Chez vous, partout et ailleurs</span>
           </div>

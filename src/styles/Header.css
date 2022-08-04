@@ -1,64 +1,72 @@
-.header_container{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    /* align-items: center; */
-    justify-content: space-between;
+.header_container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: space-between;
 }
 
 .header {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    height: 43px;
-    /* width:335px; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 62px;
+  /* width:335px; */
 }
 .header div.header_image {
-    height: 43px;
-    display: flex;
+  height: 62px;
+  display: flex;
 }
 .header div img {
-    max-height: 43px;
-    object-fit: cover;
+  max-height: 62px;
+  object-fit: cover;
 }
 
 nav {
-    /* width: 250px; */
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-
+  /* width: 250px; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
-nav ul{
-    display: flex;
-    flex-direction: row;
-    list-style-type: none;
-    gap: 3.5vw;
-    font-weight: 500;
-    font-size: 17px;
+nav ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  gap: 3.5vw;
+  font-weight: 500;
+  font-size: 17px;
 }
 
-.accueil,.apropos {
-    color: var(--font-color);
-    text-decoration: none;
+.accueil,
+.apropos {
+  color: var(--font-color);
+  text-decoration: none;
 }
 
-.accueil:hover{
-    text-decoration: underline;
+.accueil:hover {
+  text-decoration: underline;
 }
 
-.apropos:hover{
-    text-decoration: underline;
+.apropos:hover {
+  text-decoration: underline;
 }
 
-@media (max-width: 871px){
-    .accueil,.apropos {
-        text-transform: uppercase;
-    }
-    nav ul{
-        font-size: 12px;
-    }
+@media (max-width: 871px) {
+  .header div.header_image {
+    height: 43px;
+  }
+  .header div img {
+    max-height: 43px;
+  }
+
+  .accueil,
+  .apropos {
+    text-transform: uppercase;
+  }
+  nav ul {
+    font-size: 12px;
+  }
 }

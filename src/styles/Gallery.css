@@ -1,63 +1,70 @@
-.gallery{
-    display:flex;
-    flex-direction: row;
-    align-items:center;
-    /* 415/1240 */
-    height: 33vw;
-    width: 100%;
+.gallery {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* 415/1240 */
+  height: 33vw;
+  width: 100%;
 }
 
-.container_arrows{
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    width: 85vw;
+.container_arrows {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 85vw;
+  max-width: 1240px;
 }
-@media (min-width: 1440px){
-    .container_arrows{
-        width: 1240px;
-    }
+@media (min-width: 1440px) {
+  .container_arrows {
+    width: 1240px;
+  }
 }
-
-.arrows{    
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    width: 90%;
+@media (max-width: 871px) {
+  .container_arrows {
+    width: 89.337%;
+  }
 }
 
-.arrow_left:hover, .arrow_right:hover{
-    cursor: pointer;
+.arrows {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
 }
 
-.gallery_image{
-    width: 100%;
+.arrow_left:hover,
+.arrow_right:hover {
+  cursor: pointer;
 }
 
+.gallery_image {
+  width: 100%;
+}
 
-.gallery_image img{
-    height: 29vw;
+.gallery_image img {
+  height: 29vw;
+  object-fit: cover;
+  width: 100%;
+  border-radius: 25px;
+}
+
+@media (max-width: 871px) {
+  .gallery {
+    margin-top: 20px;
+    height: 68vw;
+  }
+  .gallery_image img {
+    border-radius: 10px;
+    height: 68vw;
+  }
+
+  .arrow_left img,
+  .arrow_right img {
+    height: 5vw;
+    width: auto;
     object-fit: cover;
-    width: 100%;
-    border-radius: 25px;    
-}
-
-@media (max-width: 871px){
-    .gallery{
-        margin-top: 20px;
-        height: 68vw;
-    }
-    .gallery_image img{
-        border-radius: 10px;
-        height: 68vw;
-    }
-
-    .arrow_left img, .arrow_right img{
-        height: 5vw;
-        width: auto;
-        object-fit: cover;
-    }
+  }
 }

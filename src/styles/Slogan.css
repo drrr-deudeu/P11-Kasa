@@ -1,65 +1,77 @@
-.slogan_container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    overflow:hidden;
-    width: 100%;
+.slogan_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  overflow: hidden;
+  width: 100%;
 }
 
-.slogan{
-    height: 223px;
-    display: flex;
-    align-items: center;
-    margin-top: 3.25vw;
+.slogan {
+  height: 223px;
+  display: flex;
+  align-items: center;
+  margin-top: 3.25vw;
+  background-image: url("/public/assets/Paysage.png");
+  background-size: cover;
 }
 
 .slogan .image {
-    max-width: 100%;
+  max-width: 100%;
+  background: #000000;
+  mix-blend-mode: darken;
+  /* opacity: 100%; */
+  height: 220px;
+  border-radius: 10px;
 }
 
-.slogan .image img{
-    max-width: 100%;
-    height: 223px;
-    object-fit: cover;
-    object-position: right;
-    border-radius: 10px;
-    overflow: hidden;
+.slogan .image img {
+  max-width: 100%;
+  height: 223px;
+  object-fit: cover;
+  /* object-position: right; */
+  border-radius: 10px;
+  overflow: hidden;
+  opacity: 70%;
 }
-.slogan .text{
+.slogan .text {
+  position: absolute;
+  font-size: 48px;
+  color: #ffffff;
+  align-self: center;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.slogan2 {
+  /* background-color: black; */
+  background-image: url("/public/assets/Paysage2.png");
+  background-size: cover;
+  min-height: 223px;
+  width: 100%;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 871px) {
+  .slogan {
+    height: 111px;
+  }
+  .slogan .image img {
+    max-width: 100%;
+    height: 111px;
+  }
+  .slogan .text {
     position: absolute;
-    font-size: 48px;
-    color: #FFFFFF;
+    font-size: 24px;
     width: 60%;
     padding-left: 10px;
-}
-
-.slogan2{
-    /* background-color: black; */
-    background-image: url("/public/assets/Paysage2.png");
-    background-size: cover;
-    min-height: 223px;
-    width: 100%;
-    border-radius: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-@media (max-width: 871px){
-    .slogan{
-        height: 111px;
-    }
-    .slogan .image img{
-        max-width: 100%;
-        height: 111px;
-    }
-    .slogan .text{
-        position: absolute;
-        font-size: 24px;
-    }
-    .slogan2{
-        min-height: 111px;
-    }
+  }
+  .slogan2 {
+    min-height: 111px;
+  }
 }

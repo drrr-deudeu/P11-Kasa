@@ -1,14 +1,14 @@
-
 .cards {
-  background-color: #F7F7F7;
+  background-color: #f7f7f7;
   border-radius: 25px;
   margin-top: 40px;
   padding-top: 10px;
   display: flex;
   flex-wrap: wrap;
-  gap: 2vw;
+  row-gap: 4.16vw;
+  column-gap: 1vw;
   justify-content: space-between;
-  padding: 2.5vw;
+  padding: 2.47vw;
 }
 
 .house {
@@ -25,21 +25,29 @@
   display: flex;
   align-items: baseline;
   justify-content: space-between;
+  /* background-image: url("/public/assets/FondVignette.png"); */
+  opacity: 100%;
+  /* background-color: black; */
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(0, 0, 0, 0.5) 100%
+  );
 }
-
 
 img.cover {
   border-radius: 10px;
   object-fit: cover;
   height: 100%;
   width: 100%;
+  opacity: 70%;
 }
 
-.title{
+.title {
   position: absolute;
   align-self: flex-end;
-  margin-left: 10px;
-  margin-bottom: 10px;
+  margin-left: 20px;
+  margin-bottom: 15px;
   font-weight: 500;
   font-size: 18px;
   /* 200/1240 */
@@ -47,9 +55,18 @@ img.cover {
   color: white;
 }
 
-@media (max-width: 871px){
+@media (max-width: 1440px) {
+  .housecard {
+    min-width: 100%;
+    /* height: 255px; */
+    width: 23.6vw;
+    height: 23.6vw;
+  }
+}
+
+@media (max-width: 871px) {
   .cards {
-    background-color: #FFFFFF;
+    background-color: #ffffff;
     border-radius: 25px;
     margin-top: 40px;
     padding-top: 10px;
@@ -60,7 +77,6 @@ img.cover {
     padding: 0;
     align-items: center;
   }
-  
 
   .housecard {
     width: 100%;
@@ -73,44 +89,4 @@ img.cover {
     align-items: baseline;
     justify-content: space-between;
   }
-  img.cover {
-    object-fit: cover;
-  }
 }
-
-/* @media (min-width: 1440px){
-  .cards {
-    grid-template-rows: 340px 340px;
-    grid-template-columns: repeat(3, 1fr);
-  }
-  .housecard {
-    width: 340px;
-    height: 340px;
-  }  
-}
-@media (min-width: 1520px){
-  .cards {
-    grid-template-columns: repeat(4, 1fr);
-  }
-}
-
-@media (max-width:991px) {
-  .cards {
-    grid-template-rows: 30vw 30vw;
-    grid-template-columns: repeat(2, 1fr);
-  }
-  .housecard {
-    width: 30vw;
-    height: 30vw;
-  }
-}
-@media (max-width:767px) {
-  .cards {
-    grid-template-rows: 40vw 40vw;
-    grid-template-columns: repeat(1, 1fr);
-  }
-  .housecard {
-    width: 40vw;
-    height: 40vw;
-  }
-} */
