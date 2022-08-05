@@ -23,7 +23,7 @@
 }
 @media (max-width: 871px) {
   .container_arrows {
-    width: 89.337%;
+    max-width: 100%;
   }
 }
 
@@ -32,7 +32,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  width: 90%;
+  width: 95%;
 }
 
 .arrow_left:hover,
@@ -53,7 +53,7 @@
 
 @media (max-width: 871px) {
   .gallery {
-    margin-top: 20px;
+    margin-top: 15px;
     height: 68vw;
   }
   .gallery_image img {

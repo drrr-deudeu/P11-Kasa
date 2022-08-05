@@ -1,15 +1,15 @@
-.valeurs{
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    width: 600px;
+.valeurs {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  width: 82.5%;
 }
 
-@media (max-width: 871px){
-    .valeurs{
-        width: 100%;
-    }
+@media (max-width: 871px) {
+  .valeurs {
+    width: 100%;
+  }
 }

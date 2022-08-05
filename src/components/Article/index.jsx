@@ -17,10 +17,17 @@ function toggleVisibility(el) {
   eltText.classList.toggle("invisible")
 }
 
-function Article({ title, text, prefix, index, cut = false }) {
+function Article({
+  title,
+  text,
+  prefix,
+  index,
+  cut = false,
+  specificClass = "",
+}) {
   return (
     <div className='article'>
-      <div className='article_title'>
+      <div className={"article_title " + specificClass}>
         <div>
           <span>{title}</span>
         </div>
@@ -44,7 +51,9 @@ function Article({ title, text, prefix, index, cut = false }) {
           </div>
         </button>
       </div>
-      <div id={"text_" + prefix + index} className='article_text invisible'>
+      <div
+        id={"text_" + prefix + index}
+        className={"article_text invisible " + specificClass}>
         {cut ? (
           text.map((line, ind) => <p key={"cut_" + ind}>{line}</p>)
         ) : (

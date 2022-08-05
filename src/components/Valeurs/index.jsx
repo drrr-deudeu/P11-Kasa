@@ -29,6 +29,7 @@ function Valeurs() {
           text={valeur.text}
           prefix='valeurs_'
           index={index}
+          specificClass={"valeur"}
         />
       ))}
     </section>

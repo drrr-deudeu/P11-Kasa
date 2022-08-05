@@ -9,6 +9,7 @@ function LogementDetail({ description, equipments }) {
         text={description}
         prefix={"detail_"}
         index={0}
+        specificClass={"logement"}
       />
       <Article
         title={"Équipements"}
@@ -16,6 +17,7 @@ function LogementDetail({ description, equipments }) {
         prefix={"detail_"}
         index={1}
         cut={true}
+        specificClass={"logement"}
       />
     </section>
   )

@@ -11,7 +11,7 @@ function NotFound() {
         <div>
           <span className='code'>404</span>{" "}
         </div>
-        <div>
+        <div className='oups'>
           <span className='oups'>
             Oups! La page que vous demandez n'existe pas.
           </span>
