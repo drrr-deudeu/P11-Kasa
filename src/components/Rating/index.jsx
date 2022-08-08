@@ -1,4 +1,6 @@
-function Rating({ rating }) {
+import PropTypes from "prop-types"
+function Rating(props) {
+  const rating = props.rating
   const stars = []
   for (let i = 0; i < rating; i++) {
     stars.push(
@@ -15,5 +17,9 @@ function Rating({ rating }) {
     )
   }
   return <div className='rating'>{stars}</div>
+}
+
+Rating.propTypes = {
+  rating: PropTypes.oneOf(["0", "1", "2", "3", "4", "5"]).isRequired,
 }
 export default Rating

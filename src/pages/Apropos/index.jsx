@@ -8,7 +8,7 @@ function Apropos() {
     <div className='page_container'>
       <Header />
       <main id='main_about' className='main_about'>
-        <Slogan home={false} />
+        <Slogan isHome={false} />
         <div className='about'>
           <Valeurs />
         </div>

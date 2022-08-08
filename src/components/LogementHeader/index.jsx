@@ -1,6 +1,8 @@
 import "../../styles/LogementHeader.css"
 import Rating from "../Rating"
-function LogementHeader({ title, name, picture, location, tags, rating }) {
+import PropTypes from "prop-types"
+function LogementHeader(props) {
+  const { title, name, picture, location, tags, rating } = props
   return (
     <div className='logementheader'>
       <div className='logement_title_location'>
@@ -29,6 +31,15 @@ function LogementHeader({ title, name, picture, location, tags, rating }) {
       </div>
     </div>
   )
+}
+
+LogementHeader.propTypes = {
+  title: PropTypes.string.isRequired,
+  name: PropTypes.string.isRequired,
+  picture: PropTypes.string.isRequired,
+  location: PropTypes.string.isRequired,
+  tags: PropTypes.array.isRequired,
+  rating: PropTypes.string.isRequired,
 }
 
 export default LogementHeader

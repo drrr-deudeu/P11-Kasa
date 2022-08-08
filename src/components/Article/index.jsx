@@ -1,4 +1,5 @@
 import "../../styles/Article.css"
+import PropTypes from "prop-types"
 
 function toggleVisibility(el) {
   //console.log(el.currentTarget)
@@ -17,14 +18,8 @@ function toggleVisibility(el) {
   eltText.classList.toggle("invisible")
 }
 
-function Article({
-  title,
-  text,
-  prefix,
-  index,
-  cut = false,
-  specificClass = "",
-}) {
+function Article(props) {
+  const { title, text, prefix, index, cut = false, specificClass = "" } = props
   return (
     <div className='article'>
       <div className={"article_title " + specificClass}>
@@ -64,4 +59,17 @@ function Article({
   )
 }
 
+Article.propsTypes = {
+  title: PropTypes.string.isRequired,
+  text: PropTypes.string.isRequired,
+  prefix: PropTypes.string.isRequired,
+  index: PropTypes.number.isRequired,
+  cut: PropTypes.bool,
+  specificClass: PropTypes.string,
+}
+
+Article.defaultProps = {
+  cut: false,
+  specificClass: "",
+}
 export default Article

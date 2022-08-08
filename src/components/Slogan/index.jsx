@@ -1,5 +1,7 @@
 import "../../styles/Slogan.css"
-function Slogan({ isHome }) {
+import PropTypes from "prop-types"
+function Slogan(props) {
+  const isHome = props.isHome
   return (
     <section className='slogan_container'>
       {isHome ? (
@@ -18,6 +20,10 @@ function Slogan({ isHome }) {
       )}
     </section>
   )
+}
+
+Slogan.propTypes = {
+  isHome: PropTypes.bool.isRequired,
 }
 
 export default Slogan

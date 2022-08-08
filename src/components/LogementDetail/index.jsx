@@ -1,6 +1,8 @@
 import Article from "../Article"
 import "../../styles/LogementDetail.css"
-function LogementDetail({ description, equipments }) {
+import PropTypes from "prop-types"
+function LogementDetail(props) {
+  const { description, equipments } = props
   const equipements = equipments.map((equip) => equip)
   return (
     <section className='logement_detail'>
@@ -21,5 +23,10 @@ function LogementDetail({ description, equipments }) {
       />
     </section>
   )
+}
+
+LogementDetail.propTypes = {
+  description: PropTypes.string.isRequired,
+  equipments: PropTypes.array.isRequired,
 }
 export default LogementDetail
