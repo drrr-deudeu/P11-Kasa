@@ -1,4 +1,4 @@
-import Article from "../Article"
+import Collapse from "../Collapse"
 import "../../styles/LogementDetail.css"
 import PropTypes from "prop-types"
 function LogementDetail(props) {
@@ -6,14 +6,14 @@ function LogementDetail(props) {
   const equipements = equipments.map((equip) => equip)
   return (
     <section className='logement_detail'>
-      <Article
+      <Collapse
         title={"Description"}
         text={description}
         prefix={"detail_"}
         index={0}
         specificClass={"logement"}
       />
-      <Article
+      <Collapse
         title={"Équipements"}
         text={equipements}
         prefix={"detail_"}

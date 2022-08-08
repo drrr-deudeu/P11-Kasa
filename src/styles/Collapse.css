@@ -14,6 +14,7 @@
   justify-content: space-between;
   width: 100%;
   font-weight: 500;
+  border: none;
 }
 .article_title.logement {
   height: 52px;
@@ -49,7 +50,10 @@
   display: none;
 }
 
-.article_arrows:hover {
+/* .article_arrows:hover {
+  cursor: pointer;
+} */
+.article_title:hover {
   cursor: pointer;
 }
 

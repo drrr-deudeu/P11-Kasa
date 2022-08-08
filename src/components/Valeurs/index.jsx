@@ -1,4 +1,4 @@
-import Article from "../Article"
+import Collapse from "../Collapse"
 import "../../styles/Valeurs.css"
 function Valeurs() {
   const valeurs = [
@@ -22,7 +22,7 @@ function Valeurs() {
   return (
     <section className='valeurs'>
       {valeurs.map((valeur, index) => (
-        <Article
+        <Collapse
           key={`valeur_` + valeur.title}
           id={`valeur_` + valeur.title}
           title={valeur.title}
