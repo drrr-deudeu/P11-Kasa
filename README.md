@@ -10,19 +10,17 @@ If not installed, install yarn, following instructions : [https://classic.yarnpk
 
 ## Installation Available Scripts
 
+**Note: the commands below are using yarn as package manager, but feel free to use npm instead**
+
 In the project directory, install the necessary packages :
 
 ### `yarn install`
-
-In case of incompatibility with a older react-scripts, try instead:
-
-### `yarn install --ignore-engines`
 
 ## Launch Application
 
 In the project directory, you can run:
 
-### `yarn start`
+### `yarn start` (or `yarn start`)
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
