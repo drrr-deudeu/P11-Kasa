@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app)
 
-The project is visible [here](https://symphonious-sorbet-a53ce5.netlify.app/)
+The project is deployed [here (P11-Kasa)](https://symphonious-sorbet-a53ce5.netlify.app/)
 
 ## Installation
 
