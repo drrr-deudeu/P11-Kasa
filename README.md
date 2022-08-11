@@ -10,7 +10,7 @@ If not installed, install yarn, following instructions : [https://classic.yarnpk
 
 ## Installation Available Scripts
 
-**Note: the commands below are using yarn as package manager, but feel free to use npm instead**
+**Note: the commands below are using `yarn` as package manager, but feel free to use `npm` instead**
 
 In the project directory, install the necessary packages :
 
@@ -20,7 +20,7 @@ In the project directory, install the necessary packages :
 
 In the project directory, you can run:
 
-### `yarn start` (or `yarn start`)
+### `yarn start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
