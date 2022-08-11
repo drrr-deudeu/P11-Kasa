@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/P11-Kasa/static/css/main.495808c6.css",
-    "main.js": "/P11-Kasa/static/js/main.2e329c5b.js",
-    "static/media/Paysage2.png": "/P11-Kasa/static/media/Paysage2.fce6fc3e9ed27433e9b0.png",
-    "static/media/Paysage.png": "/P11-Kasa/static/media/Paysage.efc1935eb81fc5e585f9.png",
-    "static/media/slogan2_sm.png": "/P11-Kasa/static/media/slogan2_sm.d6e9d3930106fc007404.png",
-    "index.html": "/P11-Kasa/index.html",
-    "main.495808c6.css.map": "/P11-Kasa/static/css/main.495808c6.css.map",
-    "main.2e329c5b.js.map": "/P11-Kasa/static/js/main.2e329c5b.js.map"
+    "main.css": "/static/css/main.eb77ea83.css",
+    "main.js": "/static/js/main.2e329c5b.js",
+    "static/media/Paysage2.png": "/static/media/Paysage2.fce6fc3e9ed27433e9b0.png",
+    "static/media/Paysage.png": "/static/media/Paysage.efc1935eb81fc5e585f9.png",
+    "static/media/slogan2_sm.png": "/static/media/slogan2_sm.d6e9d3930106fc007404.png",
+    "index.html": "/index.html",
+    "main.eb77ea83.css.map": "/static/css/main.eb77ea83.css.map",
+    "main.2e329c5b.js.map": "/static/js/main.2e329c5b.js.map"
   },
   "entrypoints": [
-    "static/css/main.495808c6.css",
+    "static/css/main.eb77ea83.css",
     "static/js/main.2e329c5b.js"
   ]
 }
