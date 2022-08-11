@@ -8,13 +8,15 @@ If you want locally
 
 ## Installation
 
-### Clone the project or download zip
-
 ### Install `yarn`as package manager
 
 If not installed, install `yarn`, following instructions : [https://classic.yarnpkg.com/lang/en/docs/install](https://classic.yarnpkg.com/lang/en/docs/install)
 
 ## Installation Available Scripts
+
+In a command window get the project files:
+
+### `$ git clone` or download zip
 
 In the project directory, install the necessary packages :
 
