@@ -12,7 +12,7 @@ If not installed, install `yarn`, following instructions : [https://classic.yarn
 
 In the project directory, install the necessary packages :
 
-### `$> yarn install`
+### `$ yarn install`
 
 ## Launch Application
 
