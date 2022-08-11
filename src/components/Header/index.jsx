@@ -1,7 +1,7 @@
 import "../../index.css"
 import "../../styles/Header.css"
 import { Link } from "react-router-dom"
-function Header() {
+function Header({ page = "" }) {
   return (
     <div className='header_container'>
       <div className='header'>
@@ -11,14 +11,26 @@ function Header() {
         <nav>
           <ul>
             <li>
-              <Link to='/' className='accueil'>
-                Accueil
-              </Link>
+              {page === "home" ? (
+                <Link to='/' className='accueil underline'>
+                  Accueil
+                </Link>
+              ) : (
+                <Link to='/' className='accueil'>
+                  Accueil
+                </Link>
+              )}
             </li>
             <li>
-              <Link to='/apropos' className='apropos'>
-                A Propos
-              </Link>
+              {page === "about" ? (
+                <Link to='/apropos' className='apropos underline'>
+                  A Propos
+                </Link>
+              ) : (
+                <Link to='/apropos' className='apropos'>
+                  A Propos
+                </Link>
+              )}
             </li>
           </ul>
         </nav>

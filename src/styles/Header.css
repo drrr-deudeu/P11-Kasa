@@ -46,11 +46,11 @@ nav ul {
   text-decoration: none;
 }
 
-.accueil:hover {
+.accueil.underline {
   text-decoration: underline;
 }
 
-.apropos:hover {
+.apropos.underline {
   text-decoration: underline;
 }
 

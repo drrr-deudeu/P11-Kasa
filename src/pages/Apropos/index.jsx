@@ -6,7 +6,7 @@ import "../../styles/PageContainer.css"
 function Apropos() {
   return (
     <div className='page_container'>
-      <Header />
+      <Header page={"about"} />
       <main id='main_about' className='main_about'>
         <Slogan isHome={false} />
         <div className='about'>

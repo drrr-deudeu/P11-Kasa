@@ -7,7 +7,7 @@ import "../../styles/Home.css"
 function Home() {
   return (
     <div className='page_container'>
-      <Header />
+      <Header page={"home"} />
       <main id='main_home' className='main_home'>
         <Slogan isHome={true} />
         <Houses />
