@@ -16,7 +16,8 @@ In a command window get the project files:
 
 ### `$ git clone` or download zip
 
-In the project directory, install the necessary packages :
+In the project directory, in a command window, install the necessary packages :
+**Note: On Windows, it is very common that you have to launch the command window in administrator mode for this to work**
 
 ### `$ yarn install`
 
