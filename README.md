@@ -1,16 +1,13 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app)
+The project is visible here: https://symphonious-sorbet-a53ce5.netlify.app/
 
 ## Installation
 
-If not installed, install yarn, following instructions : [https://classic.yarnpkg.com/lang/en/docs/install](https://classic.yarnpkg.com/lang/en/docs/install)
-
-**Note: under windows, cmd window generally needs to be opened in admin mode**
+If not installed, install `yarn`, following instructions : [https://classic.yarnpkg.com/lang/en/docs/install](https://classic.yarnpkg.com/lang/en/docs/install)
 
 ## Installation Available Scripts
-
-**Note: the commands below are using `yarn` as package manager, but feel free to use `npm` instead**
 
 In the project directory, install the necessary packages :
 
