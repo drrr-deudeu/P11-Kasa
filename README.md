@@ -1,10 +1,16 @@
-# Getting Started with Create React App
+# P11-Kasa
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app)
 
-The project is deployed [here (P11-Kasa)](https://symphonious-sorbet-a53ce5.netlify.app/)
+The project is already deployed on netlify [here (P11-Kasa)](https://symphonious-sorbet-a53ce5.netlify.app/)
+
+If you want locally 
 
 ## Installation
+
+### Clone the project or download zip
+
+### Install `yarn`as package manager
 
 If not installed, install `yarn`, following instructions : [https://classic.yarnpkg.com/lang/en/docs/install](https://classic.yarnpkg.com/lang/en/docs/install)
 
@@ -13,6 +19,10 @@ If not installed, install `yarn`, following instructions : [https://classic.yarn
 In the project directory, install the necessary packages :
 
 ### `$ yarn install`
+
+If an incompatibility is detected try instead:
+
+### `$ yarn install --ignore-engines`
 
 ## Launch Application
 
